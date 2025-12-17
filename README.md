@@ -1,49 +1,85 @@
-# Mappin MERN Stack
+# 🗺️ Mappin – MERN Stack Application
 
-🗺️ Mappin – MERN Stack Project
+Mappin is a full-stack **MERN (MongoDB, Express, React, Node.js)** application that allows users to explore, add, and review places on an interactive map.
 
-This project is a full-stack MERN application built using MongoDB, Express, React, and Node.js.
-The main purpose of the project is to allow users to view, add, and interact with location-based pins on a map.
+---
+
+## 🚀 Features
+
+- Interactive map using **Mapbox**
+- View all pins on the map
+- Add new pins by double-clicking on the map
+- Popups with place details (title, description, rating, creator)
+- User authentication (register & login)
+- Data stored in **MongoDB**
+- REST API built with Express
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- react-map-gl (Mapbox)
+- Axios
+- Material UI Icons
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- dotenv
+
+---
+
+## 🧠 What I Learned
+
+- Building a full **MERN stack** project
+- Creating RESTful APIs
+- Connecting frontend and backend with Axios
+- Using Mapbox maps, markers, and popups
+- Managing environment variables with `.env`
+- Working with MongoDB and Mongoose
+- Using Git and GitHub for version control
+
+---
+
+## 📂 Project Structure
+
+Mappin-Mern-Stack  
+├── backend  
+│   ├── models  
+│   ├── routes  
+│   ├── index.js  
+│   └── .env  
+├── frontend  
+│   ├── src  
+│   ├── public  
+│   └── package.json  
+└── README.md  
+
+---
+
+## ⚙️ Installation & Setup
+
+### Backend
+```bash
+cd backend
+npm install
+npm start
+
+
+📌 Future Improvements
+	•	Deploy the application
+	•	Improve UI/UX
+	•	Restrict pin creation to logged-in users
+	•	Add search and filter functionality
 
 ⸻
 
-🚀 What I Built
+👤 Author
 
-In this project, I developed a map-based application where:
-• Users can see pins displayed on an interactive map
-• Each pin represents a place with a title, description, rating, and creator
-• Users can add new pins by double-clicking on the map
-• Clicking on a pin opens a popup showing detailed information
-• Pins are stored in a MongoDB database
-• The frontend and backend communicate via a REST API
-
-⸻
-
-🛠️ Technologies Used
-
-Frontend
-• React
-• react-map-gl (Mapbox)
-• Axios
-• Material UI Icons
-• CSS
-
-Backend
-• Node.js
-• Express.js
-• MongoDB
-• Mongoose
-• dotenv
-
-⸻
-
-🧠 What I Learned
-
-Through this project, I learned:
-• How to build a RESTful API with Express and MongoDB
-• How to connect a React frontend to a backend using Axios
-• How to manage environment variables with .env
-• How to work with Mapbox maps, markers, and popups
-• How frontend and backend work together in a real MERN project
-• How to structure a project with separate frontend and backend folders
-• How to use Git and GitHub to manage and share a project
+Mustafa Oktay
+Junior MERN Stack Developer 🚀
